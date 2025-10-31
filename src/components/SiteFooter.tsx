@@ -72,8 +72,8 @@ export function SiteFooter() {
             </a>
           </div>
           <p className="text-[#4e974e] text-base">
-            © 2025 EcoDrive Colombia. Todos los derechos reservados. By Kevin
-            Echeverri
+            © 2025 Kevin EcoDrive Colombia. Todos los derechos reservados. By
+            Kevin Echeverri
           </p>
         </footer>
       </div>

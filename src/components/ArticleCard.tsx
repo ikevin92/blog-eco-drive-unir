@@ -1,11 +1,16 @@
+import Link from "next/link";
+
 export type Article = {
   title: string;
   desc: string;
   img: string;
+  slug: string;
   href?: string;
 };
 
-export function ArticleCard({ title, desc, img, href = "#" }: Article) {
+export function ArticleCard({ title, desc, img, slug, href }: Article) {
+  const articleUrl = href || `/articles/${slug}`;
+
   return (
     <section className="p-4">
       <div className="flex items-stretch justify-between gap-4 rounded-lg">
@@ -16,12 +21,12 @@ export function ArticleCard({ title, desc, img, href = "#" }: Article) {
             </p>
             <p className="text-[#4e974e] text-sm leading-normal">{desc}</p>
           </div>
-          <a
-            href={href}
+          <Link
+            href={articleUrl}
             className="flex w-fit h-8 px-4 items-center justify-center rounded-lg bg-[#e7f3e7] text-[#0e1b0e] text-sm font-medium"
           >
             Leer artículo
-          </a>
+          </Link>
         </div>
         <div
           className="w-full aspect-video bg-center bg-no-repeat bg-cover rounded-lg flex-1"

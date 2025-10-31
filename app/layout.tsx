@@ -15,10 +15,9 @@ const noto = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "EcoDrive Colombia",
+  title: "Kevin EcoDrive Colombia",
   description: "Blog about hybrid vehicles in Colombia",
   icons: {
-    // You can replace this with a file-based icon via app/icon.png or app/favicon.ico
     icon: "data:image/x-icon;base64,",
   },
 };
