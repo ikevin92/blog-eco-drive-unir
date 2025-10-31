@@ -1,5 +1,7 @@
 # DOCUMENTACIÓN DEL PROCESO DE DESARROLLO
+
 ## Blog "Kevin EcoDrive Colombia"
+
 **Desarrollo de Aplicación Web con Next.js 16**
 
 ---
@@ -19,21 +21,25 @@ El proyecto consistió en desarrollar un blog especializado en vehículos híbri
 ### 3. METODOLOGÍA DE DESARROLLO
 
 **Fase 1: Planificación y Estructura**
+
 - Análisis de requerimientos para blog de contenido híbrido
 - Diseño de arquitectura de componentes reutilizables
 - Definición de estructura de datos para artículos
 
 **Fase 2: Desarrollo de Componentes Base**
+
 - Implementación de header de navegación (`SiteHeader`)
 - Creación de componentes de artículos (`ArticleCard`, `ArticleList`)
 - Desarrollo de layout principal y footer
 
 **Fase 3: Sistema de Rutas Dinámicas**
+
 - Configuración de páginas dinámicas con `/articles/[slug]`
 - Implementación de `generateStaticParams` para pre-generación
 - Gestión de parámetros asincrónicos (Next.js 15+ compatibility)
 
 **Fase 4: Gestión de Contenido**
+
 - Estructura de datos tipada para artículos completos
 - Sistema de slugs únicos para URLs amigables
 - Implementación de funciones utilitarias (`getArticleBySlug`, `getAllSlugs`)
@@ -57,6 +63,7 @@ El proyecto consistió en desarrollar un blog especializado en vehículos híbri
 ### 6. RESULTADOS OBTENIDOS
 
 Se desarrolló exitosamente una aplicación web completamente funcional con:
+
 - 4 artículos pre-cargados sobre vehículos híbridos
 - Sistema de navegación fluido entre páginas
 - Diseño profesional con paleta de colores eco-friendly
@@ -74,6 +81,6 @@ Se desarrolló exitosamente una aplicación web completamente funcional con:
 
 ---
 
-**Desarrollado por:** Kevin Echeverri  
-**Fecha:** Octubre 2025  
+**Desarrollado por:** Kevin Echeverri
+**Fecha:** Octubre 2025
 **Framework:** Next.js 16 + React 19 + TypeScript
